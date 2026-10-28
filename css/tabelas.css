@@ -1,0 +1,45 @@
+.tabela-rolagem {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  min-width: 576px;
+  border-collapse: collapse;
+  background: var(--branco);
+}
+
+caption {
+  text-align: left;
+  font-weight: bold;
+  padding-bottom: var(--esp-1);
+}
+
+th, td {
+  text-align: left;
+  padding: 10px 12px;
+  border: 1px solid var(--linha);
+}
+
+thead th {
+  background: var(--verde-escuro);
+  color: var(--branco);
+}
+
+tbody tr:hover {
+  background: var(--papel);
+}
+
+details {
+  border-bottom: 1px solid var(--linha);
+  padding: 12px 0;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+details p {
+  margin: var(--esp-1) 0 0;
+}

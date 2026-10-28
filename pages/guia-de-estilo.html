@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guia de estilo – Ciclo Vivo</title>
+  <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+  <a class="pular" href="#conteudo">Ir para o conteúdo</a>
+  <header class="topo">
+    <div class="faixa" aria-hidden="true"><span class="c1"></span><span class="c2"></span><span class="c3"></span><span class="c4"></span></div>
+    <div class="contido barra">
+      <a class="marca" href="../index.html">Ciclo Vivo</a>
+      <button class="hamburguer" type="button" id="botao-menu" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu"><span class="linha"></span><span class="linha"></span><span class="linha"></span></button>
+      <nav class="nav" id="menu-principal" aria-label="Navegação principal">
+        <ul class="menu">
+          <li><a href="../index.html">Início</a></li>
+          <li class="tem-submenu">
+            <a href="projetos.html">Projetos</a>
+            <ul class="submenu">
+              <li><a href="projetos.html#proj-1">Cooperativa Cata Junto</a></li>
+              <li><a href="projetos.html#proj-2">Escola Sem Lixo</a></li>
+              <li><a href="projetos.html#proj-3">Oficina Segunda Vida</a></li>
+              <li><a href="projetos.html#campanhas">Campanhas de arrecadação</a></li>
+            </ul>
+          </li>
+          <li class="tem-submenu">
+            <a href="cadastro.html">Cadastro</a>
+            <ul class="submenu">
+              <li><a href="projetos.html#voluntariado">Seja voluntário</a></li>
+              <li><a href="projetos.html#como-doar">Como doar</a></li>
+              <li><a href="cadastro.html">Formulário de cadastro</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="conteudo">
+    <section class="abertura" aria-labelledby="titulo-principal">
+      <div class="contido">
+        <h1 id="titulo-principal">Guia de estilo</h1>
+        <p>Resumo do sistema de design usado no site: cores, tipografia, espaçamento, grid e componentes.</p>
+      </div>
+    </section>
+
+    <section class="secao" aria-labelledby="g-cores">
+      <div class="contido">
+        <h2 id="g-cores">Paleta de cores</h2>
+        <ul class="amostras">
+          <li><span class="amostra-verde"></span><p>--verde<br>#1e6b45</p></li>
+          <li><span class="amostra-verde-escuro"></span><p>--verde-escuro<br>#123d28</p></li>
+          <li><span class="amostra-verde-medio"></span><p>--verde-medio<br>#226b3a</p></li>
+          <li><span class="amostra-verde-claro"></span><p>--verde-claro<br>#2f8f4e</p></li>
+          <li><span class="amostra-azul"></span><p>--azul<br>#2a6fb0</p></li>
+          <li><span class="amostra-azul-escuro"></span><p>--azul-escuro<br>#1f5688</p></li>
+          <li><span class="amostra-amarelo"></span><p>--amarelo<br>#e0b21d</p></li>
+          <li><span class="amostra-vermelho"></span><p>--vermelho<br>#c8402f</p></li>
+          <li><span class="amostra-vermelho-escuro"></span><p>--vermelho-escuro<br>#9b2f22</p></li>
+          <li><span class="amostra-tinta"></span><p>--tinta<br>#14231c</p></li>
+          <li><span class="amostra-cinza"></span><p>--cinza<br>#5d675f</p></li>
+          <li><span class="amostra-papel"></span><p>--papel<br>#f3f4ef</p></li>
+          <li><span class="amostra-branco"></span><p>--branco<br>#ffffff</p></li>
+          <li><span class="amostra-linha"></span><p>--linha<br>#c4cabd</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="secao secao-branca" aria-labelledby="g-tipografia">
+      <div class="contido">
+        <h2 id="g-tipografia">Tipografia</h2>
+        <p class="fonte-6">Destaque – 2,4 rem</p>
+        <p class="fonte-5">Título – 2 rem</p>
+        <p class="fonte-4">Grande – 1,6 rem</p>
+        <p class="fonte-3">Média – 1,25 rem</p>
+        <p class="fonte-2">Base – 1 rem</p>
+        <p class="fonte-1">Pequena – 0,875 rem</p>
+      </div>
+    </section>
+
+    <section class="secao" aria-labelledby="g-espaco">
+      <div class="contido">
+        <h2 id="g-espaco">Espaçamento</h2>
+        <ul class="espacos">
+          <li><span class="espaco-1"></span>--esp-1 (8px)</li>
+          <li><span class="espaco-2"></span>--esp-2 (16px)</li>
+          <li><span class="espaco-3"></span>--esp-3 (24px)</li>
+          <li><span class="espaco-4"></span>--esp-4 (32px)</li>
+          <li><span class="espaco-5"></span>--esp-5 (48px)</li>
+          <li><span class="espaco-6"></span>--esp-6 (64px)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="secao secao-branca" aria-labelledby="g-grid">
+      <div class="contido">
+        <h2 id="g-grid">Grid de 12 colunas</h2>
+        <p>Breakpoints: 480px, 640px, 768px, 1024px e 1280px.</p>
+        <div class="grid">
+          <div class="col-1 demo-coluna">1</div>
+          <div class="col-1 demo-coluna">2</div>
+          <div class="col-1 demo-coluna">3</div>
+          <div class="col-1 demo-coluna">4</div>
+          <div class="col-1 demo-coluna">5</div>
+          <div class="col-1 demo-coluna">6</div>
+          <div class="col-1 demo-coluna">7</div>
+          <div class="col-1 demo-coluna">8</div>
+          <div class="col-1 demo-coluna">9</div>
+          <div class="col-1 demo-coluna">10</div>
+          <div class="col-1 demo-coluna">11</div>
+          <div class="col-1 demo-coluna">12</div>
+        </div>
+        <br>
+        <div class="grid">
+          <div class="col-md-8 demo-coluna">col-md-8</div>
+          <div class="col-md-4 demo-coluna">col-md-4</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao" aria-labelledby="g-botoes">
+      <div class="contido">
+        <h2 id="g-botoes">Botões</h2>
+        <p>Passe o mouse, use o Tab ou clique para ver os estados hover, focus e active.</p>
+        <div class="linha-botoes">
+          <button class="botao botao-escuro" type="button">Principal</button>
+          <button class="botao botao-claro" type="button">Secundário</button>
+          <button class="botao" type="button">Destaque</button>
+          <button class="botao botao-escuro" type="button" disabled>Desativado</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao secao-branca" aria-labelledby="g-badges">
+      <div class="contido">
+        <h2 id="g-badges">Badges e tags</h2>
+        <p>
+          <span class="badge">Padrão</span>
+          <span class="badge badge-azul">Azul</span>
+          <span class="badge badge-verde">Verde</span>
+          <span class="badge badge-vermelho">Vermelho</span>
+          <span class="badge badge-amarelo">Amarelo</span>
+        </p>
+        <ul class="tags" aria-label="Exemplo de tags">
+          <li class="tag">Reciclagem</li>
+          <li class="tag">Educação</li>
+          <li class="tag">Reuso</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="secao" aria-labelledby="g-feedback">
+      <div class="contido">
+        <h2 id="g-feedback">Alertas, toast e modal</h2>
+        <div class="alerta"><strong>Informação</strong><p>Mensagem informativa.</p></div>
+        <div class="alerta alerta-sucesso"><strong>Sucesso</strong><p>A ação foi concluída.</p></div>
+        <div class="alerta alerta-aviso"><strong>Aviso</strong><p>Atenção a este detalhe.</p></div>
+        <div class="alerta alerta-erro"><strong>Erro</strong><p>Algo deu errado.</p></div>
+        <div class="toast toast-exemplo"><p>Exemplo de toast: cadastro enviado com sucesso.</p></div>
+        <div class="acoes">
+          <a class="botao botao-escuro" href="#modal-exemplo">Abrir modal</a>
+          <button class="botao botao-claro" type="button" data-toast="Exemplo de toast aberto pelo botão.">Mostrar toast</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal" id="modal-exemplo" role="dialog" aria-modal="true" aria-labelledby="modal-exemplo-titulo">
+      <a class="modal-fundo" href="#g-feedback" tabindex="-1" aria-label="Fechar janela" data-fechar></a>
+      <div class="modal-caixa">
+        <h2 id="modal-exemplo-titulo">Exemplo de modal</h2>
+        <p>Esta janela abre com JavaScript e fecha com o botão abaixo, com o clique fora dela ou com a tecla Esc.</p>
+        <div class="acoes">
+          <a class="botao botao-claro" href="#g-feedback" data-fechar>Fechar</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="rodape">
+    <div class="contido">
+      <div class="grid">
+        <section class="col-md-4" aria-labelledby="rod-contato">
+          <h2 id="rod-contato">Contato</h2>
+          <address>
+            Rua dos lixeiros, 8814 – Vila Reciclagem<br>
+            São Paulo – SP, 05314-000<br>
+            <a href="tel:+551199999-9999">(11) 9999-9999</a><br>
+            <a href="mailto:contato@ciclovivo.example.org">contato@ciclovivo.lixeira.org</a>
+          </address>
+        </section>
+        <section class="col-md-4" aria-labelledby="rod-horario">
+          <h2 id="rod-horario">Atendimento</h2>
+          <p>Segunda a sexta, das 8h às 17h.<br>Sábados de mutirão, das 9h às 13h.</p>
+        </section>
+        <nav class="col-md-4" aria-label="Navegação do rodapé">
+          <h2>Páginas</h2>
+          <p><a href="../index.html">Início</a><br><a href="projetos.html">Projetos</a><br><a href="cadastro.html">Cadastro</a><br><a href="guia-de-estilo.html">Guia de estilo</a></p>
+        </nav>
+      </div>
+      <small>Associação Ciclo Vivo – CNPJ 00.000.000/0001-00.</small>
+    </div>
+  </footer>
+  <script src="../js/menu.js"></script>
+  <script src="../js/modal.js"></script>
+  <script src="../js/avisos.js"></script>
+</body>
+</html>

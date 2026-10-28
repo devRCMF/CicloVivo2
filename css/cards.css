@@ -1,0 +1,160 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: var(--branco);
+  border: 1px solid var(--linha);
+  border-top: 6px solid var(--verde);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--sombra);
+}
+
+.card-azul { border-top-color: var(--azul); }
+.card-verde { border-top-color: var(--verde-claro); }
+.card-vermelho { border-top-color: var(--vermelho); }
+
+.card figcaption {
+  padding: 4px var(--esp-2);
+  color: var(--cinza);
+}
+
+.card-corpo {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: var(--esp-3);
+}
+
+.card-rodape {
+  margin-top: auto;
+  padding-top: var(--esp-2);
+}
+
+.indicadores {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--esp-1) var(--esp-3);
+  margin: 0;
+}
+
+.indicadores div {
+  min-width: 100px;
+}
+
+.indicadores dt {
+  font-size: var(--fonte-pequena);
+}
+
+.indicadores dd {
+  margin: 0;
+  font-size: var(--fonte-media);
+  font-weight: bold;
+}
+
+.pilar {
+  border-top: 6px solid var(--verde);
+  padding-top: var(--esp-2);
+}
+
+.pilar.azul { border-top-color: var(--azul); }
+.pilar.vidro { border-top-color: var(--verde-claro); }
+.pilar.metal { border-top-color: var(--amarelo); }
+
+.dados {
+  margin: 0;
+}
+
+.dados div {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--linha);
+}
+
+.dados dt {
+  font-weight: bold;
+}
+
+.dados dd {
+  margin: 0;
+}
+
+.linha-do-tempo {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 var(--esp-2);
+  border-left: 4px solid var(--verde);
+}
+
+.linha-do-tempo li {
+  margin-bottom: var(--esp-2);
+}
+
+.linha-do-tempo strong {
+  display: block;
+}
+
+.equipe {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: var(--esp-2);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.equipe li {
+  padding-left: 12px;
+  border-left: 4px solid var(--linha);
+}
+
+.equipe strong {
+  display: block;
+}
+
+.meta label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.meta progress {
+  width: 100%;
+  height: 20px;
+}
+
+.passos {
+  padding-left: 20px;
+}
+
+.passos li {
+  margin-bottom: 12px;
+}
+
+.caixa {
+  background: var(--papel);
+  border-left: 6px solid var(--amarelo);
+  padding: var(--esp-2);
+  margin-bottom: var(--esp-2);
+}
+
+.caixa p:last-child {
+  margin-bottom: 0;
+}
+
+.lateral {
+  background: var(--branco);
+  border: 1px solid var(--linha);
+  padding: var(--esp-3);
+}
+
+.lateral ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.lateral h2 {
+  font-size: var(--fonte-media);
+}

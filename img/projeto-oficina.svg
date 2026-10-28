@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="t d">
+<title id="t">Garrafas reaproveitadas como vasos de plantas</title>
+<desc id="d">Fileira de garrafas cortadas servindo de vasos para mudas de plantas sobre uma bancada.</desc>
+<rect width="640" height="420" fill="#e4efe2"/>
+<rect y="300" width="640" height="120" fill="#b78f62"/>
+<rect y="290" width="640" height="14" fill="#8c6a43"/>
+<g fill="#2f8f4e">
+<rect x="70" y="190" width="70" height="100" fill-opacity="0.75"/>
+<rect x="190" y="190" width="70" height="100" fill-opacity="0.75"/>
+<rect x="310" y="190" width="70" height="100" fill-opacity="0.75"/>
+<rect x="430" y="190" width="70" height="100" fill-opacity="0.75"/>
+</g>
+<g fill="#5b3b24">
+<rect x="70" y="230" width="70" height="60"/>
+<rect x="190" y="230" width="70" height="60"/>
+<rect x="310" y="230" width="70" height="60"/>
+<rect x="430" y="230" width="70" height="60"/>
+</g>
+<g stroke="#1e6b45" stroke-width="6" fill="none">
+<path d="M105 230 V150"/>
+<path d="M225 230 V120"/>
+<path d="M345 230 V140"/>
+<path d="M465 230 V110"/>
+</g>
+<g fill="#1e6b45">
+<ellipse cx="85" cy="150" rx="22" ry="12"/>
+<ellipse cx="125" cy="165" rx="22" ry="12"/>
+<ellipse cx="205" cy="120" rx="22" ry="12"/>
+<ellipse cx="245" cy="140" rx="22" ry="12"/>
+<ellipse cx="325" cy="140" rx="22" ry="12"/>
+<ellipse cx="365" cy="160" rx="22" ry="12"/>
+<ellipse cx="445" cy="110" rx="22" ry="12"/>
+<ellipse cx="485" cy="135" rx="22" ry="12"/>
+</g>
+</svg>

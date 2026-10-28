@@ -1,0 +1,111 @@
+fieldset {
+  border: 1px solid var(--linha);
+  background: var(--branco);
+  margin: 0 0 var(--esp-3);
+  padding: var(--esp-2);
+}
+
+legend {
+  font-family: var(--fonte-titulos);
+  font-size: var(--fonte-media);
+  font-weight: bold;
+  padding: 0 var(--esp-1);
+}
+
+.campo {
+  margin-bottom: var(--esp-2);
+}
+
+.campo label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.dica {
+  display: block;
+  font-size: var(--fonte-pequena);
+  color: var(--cinza);
+  margin-top: 4px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select {
+  display: block;
+  width: 100%;
+  padding: 10px 12px;
+  font: inherit;
+  color: var(--tinta);
+  background: var(--branco);
+  border: 2px solid var(--cinza);
+  transition: border-color 0.2s, background 0.2s;
+}
+
+input:hover,
+select:hover {
+  border-color: var(--tinta);
+}
+
+input:focus,
+select:focus {
+  border-color: var(--azul);
+}
+
+input[aria-invalid="true"],
+select[aria-invalid="true"] {
+  border-color: var(--vermelho);
+  background: var(--fundo-erro);
+}
+
+.campo-ok {
+  border-color: var(--verde-claro);
+}
+
+.erro-msg {
+  display: block;
+  margin-top: 4px;
+  font-size: var(--fonte-pequena);
+  font-weight: bold;
+  color: var(--vermelho-escuro);
+}
+
+input:disabled {
+  background: var(--papel);
+  border-color: var(--linha);
+  cursor: not-allowed;
+}
+
+.opcao {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--esp-1);
+  margin-bottom: var(--esp-1);
+}
+
+.opcao input {
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  margin-top: 5px;
+}
+
+.opcao label {
+  font-weight: normal;
+  margin: 0;
+}
+
+.par {
+  display: flex;
+  flex-direction: column;
+}
+
+.par .campo {
+  flex: 1;
+}
+
+.formulario:invalid .enviar {
+  opacity: 0.7;
+}

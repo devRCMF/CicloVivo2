@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cadastro recebido – Ciclo Vivo</title>
+  <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+  <a class="pular" href="#conteudo">Ir para o conteúdo</a>
+  <header class="topo">
+    <div class="faixa" aria-hidden="true"><span class="c1"></span><span class="c2"></span><span class="c3"></span><span class="c4"></span></div>
+    <div class="contido barra">
+      <a class="marca" href="../index.html">Ciclo Vivo</a>
+      <button class="hamburguer" type="button" id="botao-menu" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu"><span class="linha"></span><span class="linha"></span><span class="linha"></span></button>
+      <nav class="nav" id="menu-principal" aria-label="Navegação principal">
+        <ul class="menu">
+          <li><a href="../index.html">Início</a></li>
+          <li class="tem-submenu">
+            <a href="projetos.html">Projetos</a>
+            <ul class="submenu">
+              <li><a href="projetos.html#proj-1">Cooperativa Cata Junto</a></li>
+              <li><a href="projetos.html#proj-2">Escola Sem Lixo</a></li>
+              <li><a href="projetos.html#proj-3">Oficina Segunda Vida</a></li>
+              <li><a href="projetos.html#campanhas">Campanhas de arrecadação</a></li>
+            </ul>
+          </li>
+          <li class="tem-submenu">
+            <a href="cadastro.html" aria-current="page">Cadastro</a>
+            <ul class="submenu">
+              <li><a href="projetos.html#voluntariado">Seja voluntário</a></li>
+              <li><a href="projetos.html#como-doar">Como doar</a></li>
+              <li><a href="cadastro.html">Formulário de cadastro</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="conteudo">
+    <section class="secao" aria-labelledby="titulo-principal">
+      <div class="contido">
+        <div class="grid centralizado">
+          <div class="col-md-6">
+            <h1 id="titulo-principal">Cadastro recebido</h1>
+            <div class="alerta alerta-sucesso" role="status">
+              <strong>Tudo certo!</strong>
+              <p>Seu cadastro foi enviado com sucesso.</p>
+            </div>
+            <p>Obrigado por se aproximar da Ciclo Vivo. Em até cinco dias úteis alguém da equipe entra em contato pelo e-mail ou telefone informado.</p>
+            <div class="acoes">
+              <a class="botao botao-escuro" href="projetos.html">Conhecer os projetos</a>
+              <a class="botao botao-claro" href="../index.html">Voltar ao início</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="../img/cadastro-muda.svg" width="600" height="420" alt="Muda de planta com folhas coloridas crescendo dentro de uma lata reaproveitada">
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="toast" role="status">
+      <p>Cadastro enviado com sucesso.</p>
+    </div>
+  </main>
+  <footer class="rodape">
+    <div class="contido">
+      <div class="grid">
+        <section class="col-md-4" aria-labelledby="rod-contato">
+          <h2 id="rod-contato">Contato</h2>
+          <address>
+            Rua dos lixeiros, 8814 – Vila Reciclagem<br>
+            São Paulo – SP, 05314-000<br>
+            <a href="tel:+551199999-9999">(11) 9999-9999</a><br>
+            <a href="mailto:contato@ciclovivo.example.org">contato@ciclovivo.lixeira.org</a>
+          </address>
+        </section>
+        <section class="col-md-4" aria-labelledby="rod-horario">
+          <h2 id="rod-horario">Atendimento</h2>
+          <p>Segunda a sexta, das 8h às 17h.<br>Sábados de mutirão, das 9h às 13h.</p>
+        </section>
+        <nav class="col-md-4" aria-label="Navegação do rodapé">
+          <h2>Páginas</h2>
+          <p><a href="../index.html">Início</a><br><a href="projetos.html">Projetos</a><br><a href="cadastro.html">Cadastro</a><br><a href="guia-de-estilo.html">Guia de estilo</a></p>
+        </nav>
+      </div>
+      <small>Associação Ciclo Vivo – CNPJ 00.000.000/0001-00.</small>
+    </div>
+  </footer>
+  <script src="../js/menu.js"></script>
+</body>
+</html>

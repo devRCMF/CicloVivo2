@@ -1,0 +1,143 @@
+.amostras {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: var(--esp-2);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.amostras li {
+  border: 1px solid var(--linha);
+  background: var(--branco);
+  font-size: var(--fonte-pequena);
+}
+
+.amostras span {
+  display: block;
+  height: 64px;
+}
+
+.amostras p {
+  margin: 0;
+  padding: 6px 8px;
+}
+
+.amostra-verde {
+  background: var(--verde);
+}
+
+.amostra-verde-escuro {
+  background: var(--verde-escuro);
+}
+
+.amostra-verde-medio {
+  background: var(--verde-medio);
+}
+
+.amostra-verde-claro {
+  background: var(--verde-claro);
+}
+
+.amostra-azul {
+  background: var(--azul);
+}
+
+.amostra-azul-escuro {
+  background: var(--azul-escuro);
+}
+
+.amostra-amarelo {
+  background: var(--amarelo);
+}
+
+.amostra-vermelho {
+  background: var(--vermelho);
+}
+
+.amostra-vermelho-escuro {
+  background: var(--vermelho-escuro);
+}
+
+.amostra-tinta {
+  background: var(--tinta);
+}
+
+.amostra-cinza {
+  background: var(--cinza);
+}
+
+.amostra-papel {
+  background: var(--papel);
+}
+
+.amostra-branco {
+  background: var(--branco);
+}
+
+.amostra-linha {
+  background: var(--linha);
+}
+
+.espacos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.espacos li {
+  display: flex;
+  align-items: center;
+  gap: var(--esp-2);
+  margin-bottom: var(--esp-1);
+}
+
+.espacos span {
+  display: block;
+  height: 16px;
+  background: var(--azul);
+}
+
+.espaco-1 {
+  width: var(--esp-1);
+}
+
+.espaco-2 {
+  width: var(--esp-2);
+}
+
+.espaco-3 {
+  width: var(--esp-3);
+}
+
+.espaco-4 {
+  width: var(--esp-4);
+}
+
+.espaco-5 {
+  width: var(--esp-5);
+}
+
+.espaco-6 {
+  width: var(--esp-6);
+}
+
+.demo-coluna {
+  padding: var(--esp-1);
+  text-align: center;
+  background: var(--fundo-info);
+  border: 1px solid var(--azul);
+}
+
+.fonte-1 { font-size: var(--fonte-pequena); }
+.fonte-2 { font-size: var(--fonte-base); }
+.fonte-3 { font-size: var(--fonte-media); }
+.fonte-4 { font-size: var(--fonte-grande); }
+.fonte-5 { font-size: var(--fonte-titulo); }
+.fonte-6 { font-size: var(--fonte-destaque); }
+
+.linha-botoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--esp-2);
+}

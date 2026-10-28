@@ -1,0 +1,27 @@
+.rodape {
+  background: var(--verde-escuro);
+  color: var(--papel);
+  padding: var(--esp-4) 0 var(--esp-2);
+}
+
+.rodape a {
+  color: var(--papel);
+}
+
+.rodape h2 {
+  font-size: var(--fonte-media);
+}
+
+.rodape address {
+  font-style: normal;
+}
+
+.rodape .grid {
+  margin-bottom: var(--esp-3);
+}
+
+.rodape small {
+  display: block;
+  border-top: 1px solid var(--verde-medio);
+  padding-top: var(--esp-2);
+}

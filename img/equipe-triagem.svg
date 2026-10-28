@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" role="img" aria-labelledby="t d">
+<title id="t">Equipe na esteira de triagem</title>
+<desc id="d">Três pessoas de colete verde separam materiais recicláveis sobre uma mesa de triagem.</desc>
+<rect width="800" height="520" fill="#ece6d8"/>
+<rect y="380" width="800" height="140" fill="#cfc5ae"/>
+<rect x="60" y="300" width="680" height="30" fill="#6b5a3e"/>
+<rect x="90" y="330" width="14" height="130" fill="#6b5a3e"/>
+<rect x="696" y="330" width="14" height="130" fill="#6b5a3e"/>
+<rect x="140" y="262" width="60" height="38" fill="#2a6fb0"/>
+<rect x="230" y="270" width="48" height="30" fill="#e0b21d"/>
+<rect x="520" y="258" width="64" height="42" fill="#c8402f"/>
+<rect x="620" y="272" width="46" height="28" fill="#2f8f4e"/>
+<g>
+<circle cx="220" cy="150" r="34" fill="#c99a6e"/>
+<rect x="180" y="190" width="80" height="110" fill="#1e6b45"/>
+<rect x="180" y="190" width="80" height="14" fill="#e0b21d"/>
+</g>
+<g>
+<circle cx="400" cy="140" r="34" fill="#8a5c3b"/>
+<rect x="360" y="180" width="80" height="120" fill="#1e6b45"/>
+<rect x="360" y="180" width="80" height="14" fill="#e0b21d"/>
+</g>
+<g>
+<circle cx="580" cy="150" r="34" fill="#e0b48a"/>
+<rect x="540" y="190" width="80" height="110" fill="#1e6b45"/>
+<rect x="540" y="190" width="80" height="14" fill="#e0b21d"/>
+</g>
+</svg>

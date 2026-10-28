@@ -1,0 +1,40 @@
+:root {
+  --verde: #1e6b45;
+  --verde-escuro: #123d28;
+  --verde-medio: #226b3a;
+  --verde-claro: #2f8f4e;
+  --azul: #2a6fb0;
+  --azul-escuro: #1f5688;
+  --amarelo: #e0b21d;
+  --vermelho: #c8402f;
+  --vermelho-escuro: #9b2f22;
+  --tinta: #14231c;
+  --cinza: #5d675f;
+  --papel: #f3f4ef;
+  --branco: #ffffff;
+  --linha: #c4cabd;
+
+  --fundo-sucesso: #e3f1e8;
+  --fundo-info: #e1edf7;
+  --fundo-aviso: #fbf1cf;
+  --fundo-erro: #f9e1dd;
+
+  --fonte-texto: "Segoe UI", Tahoma, Verdana, sans-serif;
+  --fonte-titulos: Georgia, "Times New Roman", serif;
+
+  --fonte-pequena: 0.875rem;
+  --fonte-base: 1rem;
+  --fonte-media: 1.25rem;
+  --fonte-grande: 1.6rem;
+  --fonte-titulo: 2rem;
+  --fonte-destaque: 2.4rem;
+
+  --esp-1: 8px;
+  --esp-2: 16px;
+  --esp-3: 24px;
+  --esp-4: 32px;
+  --esp-5: 48px;
+  --esp-6: 64px;
+
+  --sombra: 0 8px 16px rgba(20, 35, 28, 0.18);
+}

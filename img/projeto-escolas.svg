@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="t d">
+<title id="t">Sala de aula com quadro e alunos</title>
+<desc id="d">Quadro verde com símbolo de reciclagem e quatro estudantes sentados à frente.</desc>
+<rect width="640" height="420" fill="#f0ead8"/>
+<rect y="330" width="640" height="90" fill="#c9b98f"/>
+<rect x="80" y="40" width="480" height="210" fill="#123d28"/>
+<rect x="70" y="30" width="500" height="10" fill="#6b5a3e"/>
+<rect x="70" y="250" width="500" height="10" fill="#6b5a3e"/>
+<path d="M320 90 L360 160 H280 Z" fill="none" stroke="#f3f4ef" stroke-width="8" stroke-linejoin="round"/>
+<g>
+<circle cx="150" cy="300" r="26" fill="#c99a6e"/>
+<rect x="124" y="326" width="52" height="60" fill="#2a6fb0"/>
+<circle cx="260" cy="300" r="26" fill="#8a5c3b"/>
+<rect x="234" y="326" width="52" height="60" fill="#e0b21d"/>
+<circle cx="370" cy="300" r="26" fill="#e0b48a"/>
+<rect x="344" y="326" width="52" height="60" fill="#c8402f"/>
+<circle cx="480" cy="300" r="26" fill="#b27a52"/>
+<rect x="454" y="326" width="52" height="60" fill="#2f8f4e"/>
+</g>
+</svg>
